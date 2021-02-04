@@ -10,5 +10,7 @@ public class InheritanceTester1 {
         SimpleDate jimDob = new SimpleDate(14,2, 1999);
         Student s1 = new Student("Jim", "Jones", jimDob, 9452);
         System.out.println(s1);
+
+        s1.someFunc();
     }
 }

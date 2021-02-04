@@ -7,6 +7,7 @@ public class Student extends Person { //Student IS-A Person
 
     public Student(String firstName, String surName, SimpleDate dateOfBirth, int studentId) {
         super(firstName, surName, dateOfBirth);
+        //super();
         this.studentId = studentId;
     }
 
@@ -15,5 +16,15 @@ public class Student extends Person { //Student IS-A Person
         return "Student{" + super.toString() +
                 "studentId=" + studentId +
                 '}';
+    }
+
+    public void someFunc()
+    {
+        System.out.println("Sub Class output");
+    }
+
+    public void temp()
+    {
+        someFunc();
     }
 }

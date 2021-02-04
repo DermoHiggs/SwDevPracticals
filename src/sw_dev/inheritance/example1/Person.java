@@ -22,4 +22,9 @@ public class Person {
                 ", dateOfBirth=" + dateOfBirth +
                 '}';
     }
+
+    public void someFunc()
+    {
+        System.out.println("Super Class output");
+    }
 }
